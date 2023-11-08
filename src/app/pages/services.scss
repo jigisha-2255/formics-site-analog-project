@@ -1,0 +1,66 @@
+.w-33 {
+  width: 31%;
+}
+
+.text-sky {
+  color: #3686F7;
+}
+
+.service-details:hover {
+  color: #3686F7;
+}
+
+.section-padding {
+  padding-top: 3rem;
+  padding-right: 7rem;
+  padding-bottom: 3rem;
+  padding-left: 7rem;
+}
+
+ul.service {
+  list-style-type: none;
+}
+
+@media(max-width:640px) {
+  .w-33 {
+    width: 100%;
+  }
+
+  .section-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media(min-width:640px) and (max-width:768px) {
+  .w-33 {
+    width: 47%;
+  }
+
+  .section-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media(min-width:768px) and (max-width:1023px) {
+  .w-33 {
+    width: 47%;
+  }
+
+  .section-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media(min-width:1024px) and (max-width:1200px) {
+  .w-33 {
+    width: 31%;
+  }
+
+  .section-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

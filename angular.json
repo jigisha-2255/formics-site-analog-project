@@ -15,7 +15,11 @@
             "configFile": "vite.config.ts",
             "main": "src/main.ts",
             "outputPath": "dist/client",
-            "tsConfig": "tsconfig.app.json"
+            "tsConfig": "tsconfig.app.json",
+            "styles": ["node_modules/aos/dist/aos.css"],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "defaultConfiguration": "production",
           "configurations": {
@@ -26,7 +30,7 @@
               "sourcemap": false,
               "mode": "production"
             }
-          }
+          }          
         },
         "serve": {
           "builder": "@analogjs/platform:vite-dev-server",
